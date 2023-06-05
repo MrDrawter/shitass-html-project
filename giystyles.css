@@ -1,0 +1,40 @@
+body {
+	background-image: url(con_giygas.bmp);
+}
+.title {
+	font-size: 30px;
+	background: white;
+}
+a:visited {
+	color: gold;
+}
+a:link {
+	color: gold;
+}
+a:hover {
+	color: yellow;
+}
+img {
+  image-rendering:optimizeSpeed;             /* Legal fallback */
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;               /* CSS4 Proposed  */
+  image-rendering:pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+@font-face { 
+	font-family: saturn; src: url('SenorSaturno.ttf'); 
+}
+h1, h2, h3, p, pre {
+	font-family: saturn;
+}
+.center {
+	text-align: center;
+}
+iframe {
+    display: block;
+    border-style:none;
+	margin: 0 auto;
+}

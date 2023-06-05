@@ -1,0 +1,63 @@
+body {
+	background-color: gold;
+}
+.title {
+	text-align: center;
+	font-size: 75px;
+	background: green;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.blue {
+	color:blue
+}
+.img2 {
+	position: relative;
+	left: 880px;
+}
+.img1 {
+	position: relative;
+	left: 500px;
+}
+a:visited {
+	color: red;
+}
+a:link {
+	color: red;
+}
+a:hover {
+	color: blue;
+}
+.courier {
+	font-family: courier;
+}
+img {
+  image-rendering:optimizeSpeed;             /* Legal fallback */
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;               /* CSS4 Proposed  */
+  image-rendering:pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+@font-face { 
+	font-family: saturn; src: url('SenorSaturno.ttf'); 
+}
+@font-face { 
+	font-family: earthbound; src: url('EarthMommaRegular.ttf'); 
+}
+.saturntitle {
+	font-family: saturn;
+	font-size: 45px
+}
+.saturn {
+	font-family: saturn;
+}
+h1, h2, h3, p, pre {
+	font-family: earthbound;
+}
